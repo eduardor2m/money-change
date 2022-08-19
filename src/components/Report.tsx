@@ -78,56 +78,56 @@ export const Report = ({ accountValue, paymentValue }: IReportProps) => {
             <tr>
               <th
                 style={{
-                  color: bankNotesAndCoins.oneHundred > 0 ? 'green' : '#444',
+                  color: bankNotesAndCoins.oneHundred > 0 ? '#ef233c' : '#444',
                 }}
               >
                 Cedulas de 100R$
               </th>
               <th
                 style={{
-                  color: bankNotesAndCoins.fifty > 0 ? 'green' : '#444',
+                  color: bankNotesAndCoins.fifty > 0 ? '#ef233c' : '#444',
                 }}
               >
                 Cedulas de 50R$
               </th>
               <th
                 style={{
-                  color: bankNotesAndCoins.twenty > 0 ? 'green' : '#444',
+                  color: bankNotesAndCoins.twenty > 0 ? '#ef233c' : '#444',
                 }}
               >
                 Cedulas de 20R$
               </th>
               <th
                 style={{
-                  color: bankNotesAndCoins.ten > 0 ? 'green' : '#444',
+                  color: bankNotesAndCoins.ten > 0 ? '#ef233c' : '#444',
                 }}
               >
                 Cedulas de 10R$
               </th>
               <th
                 style={{
-                  color: bankNotesAndCoins.five > 0 ? 'green' : '#444',
+                  color: bankNotesAndCoins.five > 0 ? '#ef233c' : '#444',
                 }}
               >
                 Cedulas de 5R$
               </th>
               <th
                 style={{
-                  color: bankNotesAndCoins.two > 0 ? 'green' : '#444',
+                  color: bankNotesAndCoins.two > 0 ? '#ef233c' : '#444',
                 }}
               >
                 Cedulas de 2R$
               </th>
               <th
                 style={{
-                  color: bankNotesAndCoins.one > 0 ? 'green' : '#444',
+                  color: bankNotesAndCoins.one > 0 ? '#ef233c' : '#444',
                 }}
               >
                 Moedas de 1R$
               </th>
               <th
                 style={{
-                  color: bankNotesAndCoins.fiftyCents > 0 ? 'green' : '#444',
+                  color: bankNotesAndCoins.fiftyCents > 0 ? '#ef233c' : '#444',
                 }}
               >
                 Moedas de 50 Centavos
@@ -135,21 +135,21 @@ export const Report = ({ accountValue, paymentValue }: IReportProps) => {
               <th
                 style={{
                   color:
-                    bankNotesAndCoins.twentyFiveCents > 0 ? 'green' : '#444',
+                    bankNotesAndCoins.twentyFiveCents > 0 ? '#ef233c' : '#444',
                 }}
               >
                 Moedas de 25 Centavos
               </th>
               <th
                 style={{
-                  color: bankNotesAndCoins.tenCents > 0 ? 'green' : '#444',
+                  color: bankNotesAndCoins.tenCents > 0 ? '#ef233c' : '#444',
                 }}
               >
                 Moedas de 10 Centavos
               </th>
               <th
                 style={{
-                  color: bankNotesAndCoins.fiveCents > 0 ? 'green' : '#444',
+                  color: bankNotesAndCoins.fiveCents > 0 ? '#ef233c' : '#444',
                 }}
               >
                 Moedas de 5 Centavos
@@ -160,56 +160,56 @@ export const Report = ({ accountValue, paymentValue }: IReportProps) => {
             <tr>
               <td
                 style={{
-                  color: bankNotesAndCoins.oneHundred > 0 ? 'green' : '#444',
+                  color: bankNotesAndCoins.oneHundred > 0 ? '#ef233c' : '#444',
                 }}
               >
                 {bankNotesAndCoins.oneHundred}
               </td>
               <td
                 style={{
-                  color: bankNotesAndCoins.fifty > 0 ? 'green' : '#444',
+                  color: bankNotesAndCoins.fifty > 0 ? '#ef233c' : '#444',
                 }}
               >
                 {bankNotesAndCoins.fifty}
               </td>
               <td
                 style={{
-                  color: bankNotesAndCoins.twenty > 0 ? 'green' : '#444',
+                  color: bankNotesAndCoins.twenty > 0 ? '#ef233c' : '#444',
                 }}
               >
                 {bankNotesAndCoins.twenty}
               </td>
               <td
                 style={{
-                  color: bankNotesAndCoins.ten > 0 ? 'green' : '#444',
+                  color: bankNotesAndCoins.ten > 0 ? '#ef233c' : '#444',
                 }}
               >
                 {bankNotesAndCoins.ten}
               </td>
               <td
                 style={{
-                  color: bankNotesAndCoins.five > 0 ? 'green' : '#444',
+                  color: bankNotesAndCoins.five > 0 ? '#ef233c' : '#444',
                 }}
               >
                 {bankNotesAndCoins.five}
               </td>
               <td
                 style={{
-                  color: bankNotesAndCoins.two > 0 ? 'green' : '#444',
+                  color: bankNotesAndCoins.two > 0 ? '#ef233c' : '#444',
                 }}
               >
                 {bankNotesAndCoins.two}
               </td>
               <td
                 style={{
-                  color: bankNotesAndCoins.one > 0 ? 'green' : '#444',
+                  color: bankNotesAndCoins.one > 0 ? '#ef233c' : '#444',
                 }}
               >
                 {bankNotesAndCoins.one}
               </td>
               <td
                 style={{
-                  color: bankNotesAndCoins.fiftyCents > 0 ? 'green' : '#444',
+                  color: bankNotesAndCoins.fiftyCents > 0 ? '#ef233c' : '#444',
                 }}
               >
                 {bankNotesAndCoins.fiftyCents}
@@ -217,21 +217,21 @@ export const Report = ({ accountValue, paymentValue }: IReportProps) => {
               <td
                 style={{
                   color:
-                    bankNotesAndCoins.twentyFiveCents > 0 ? 'green' : '#444',
+                    bankNotesAndCoins.twentyFiveCents > 0 ? '#ef233c' : '#444',
                 }}
               >
                 {bankNotesAndCoins.twentyFiveCents}
               </td>
               <td
                 style={{
-                  color: bankNotesAndCoins.tenCents > 0 ? 'green' : '#444',
+                  color: bankNotesAndCoins.tenCents > 0 ? '#ef233c' : '#444',
                 }}
               >
                 {bankNotesAndCoins.tenCents}
               </td>
               <td
                 style={{
-                  color: bankNotesAndCoins.fiveCents > 0 ? 'green' : '#444',
+                  color: bankNotesAndCoins.fiveCents > 0 ? '#ef233c' : '#444',
                 }}
               >
                 {bankNotesAndCoins.fiveCents}

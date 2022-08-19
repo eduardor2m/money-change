@@ -26,13 +26,13 @@ export const Form = ({ handleCalculate }: IFormProps) => {
       </section>
       <input
         type="number"
-        placeholder="Valor da conta"
+        placeholder="Digite o valor que o cliente deu"
         className={styles.input}
         onChange={(e) => setAccountValue(Number(e.target.value))}
       />
       <input
         type="number"
-        placeholder="Valor do pagamento"
+        placeholder="Digite o valor da conta que o cliente vai pagar"
         className={styles.input}
         onChange={(e) => setPaymentValue(Number(e.target.value))}
       />
