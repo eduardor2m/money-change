@@ -127,3 +127,73 @@
 
   }
 }
+
+@media screen and (max-width: 1190px) {
+  .content {
+    width: 100vw;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    .wrapper {
+
+      .title {
+        font-size: 16px;
+
+      }
+
+      .report {
+        width: 90%;
+        height: 60%;
+        flex-direction: column;
+
+
+        .infoPayment {
+          width: 100%;
+          height: 35%;
+
+
+
+          .icon {}
+
+          .item {}
+
+          .itemTitle {
+            font-size: 9px;
+          }
+
+          .itemValueAccount {
+            font-size: 9px;
+          }
+
+          .itemValuePayment {
+            font-size: 9px;
+          }
+
+          .itemValueChange {
+            font-size: 9px;
+          }
+        }
+
+        .bankNoteCounting {
+          width: 100%;
+          height: 65%;
+          background-color: #fff;
+          margin-left: 0;
+
+          .bankNoteCountingTitle {
+            font-size: 12px;
+          }
+
+          .bankNoteCountingItem {
+
+            .bankNoteCountingItemTitle {}
+
+            .bankNoteCountingItemValue {}
+          }
+        }
+      }
+
+    }
+  }
+}
