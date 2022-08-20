@@ -26,16 +26,28 @@ export const Form = ({ handleCalculate }: IFormProps) => {
       </section>
       <input
         type="number"
-        placeholder="Digite o valor que o cliente deu"
+        placeholder="Digite o valor da conta que o cliente vai pagar"
         className={styles.input}
+        value={accountValue}
         onChange={(e) => setAccountValue(Number(e.target.value))}
       />
       <input
         type="number"
-        placeholder="Digite o valor da conta que o cliente vai pagar"
+        placeholder="Digite o valor que o cliente deu"
         className={styles.input}
+        value={paymentValue}
         onChange={(e) => setPaymentValue(Number(e.target.value))}
       />
+      <section className={styles.easyAccessBankNotes}>
+        <div onClick={() => setPaymentValue(paymentValue + 100)}>
+          + R$ 100,00
+        </div>
+        <div onClick={() => setPaymentValue(paymentValue + 50)}>+ R$ 50,00</div>
+        <div onClick={() => setPaymentValue(paymentValue + 20)}>+ R$ 20,00</div>
+        <div onClick={() => setPaymentValue(paymentValue + 10)}>+ R$ 10,00</div>
+        <div onClick={() => setPaymentValue(paymentValue + 5)}>+ R$ 5,00</div>
+        <div onClick={() => setPaymentValue(paymentValue + 2)}>+ R$ 2,00</div>
+      </section>
       <button
         type="submit"
         className={styles.button}
